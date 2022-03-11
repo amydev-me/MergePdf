@@ -7,7 +7,7 @@ function mergedPdf(){
     const arrayBuffer1 = await fetch(sourcePdfUrl1).then((res) => res.arrayBuffer())
     // const pdfDoc4 = await PDFDocument.load(arrayBuffer)
     
-    // Upload file Merging
+    // Input file Merging
     // const in1 = document.getElementById('file1').files[0]; 
     // let bytes1 = await this.readFileAsync(in1); 
     // const in2 = document.getElementById('file2').files[0];  
